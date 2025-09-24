@@ -1,15 +1,29 @@
-//[ScienerCardEncoder SDK](../../../index.md)/[com.ttlock.cardencoder](../index.md)/[ScienerCardEncoderImpl](index.md)/[initCardEncoder](init-card-encoder.md)
+---
+title: initCardEncoder
+---
+//[ScienerCardEncoder SDK](../../../index.html)/[com.ttlock.cardencoder](../index.html)/[ScienerCardEncoderImpl](index.html)/[initCardEncoder](init-card-encoder.html)
+
+
 
 # initCardEncoder
 
+
+
 [androidJvm]\
-open override fun [initCardEncoder](init-card-encoder.md)(hotelInfo: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html), callback: [CardEncoderCallback](../-card-encoder-callback/index.md)&lt;[Unit](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html)&gt;)
+open override fun [initCardEncoder](init-card-encoder.html)(hotelInfo: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html), callback: [CardEncoderCallback](../-card-encoder-callback/index.html)&lt;[Unit](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html)&gt;)
+
+
 
 初始化卡片编码器
 
+
+
 配置发卡器的基本参数，包括酒店信息等。此方法必须在连接设备后、 进行任何卡片操作前调用。
 
+
+
 #### Parameters
+
 
 androidJvm
 
@@ -18,11 +32,47 @@ androidJvm
 | hotelInfo | 酒店信息字符串，用于标识和配置发卡器 |
 | callback | 初始化结果回调，成功时表示配置完成，失败时返回错误信息 |
 
+
+
 #### See also
+
 
 | | |
 |---|---|
-| [ScienerCardEncoderImpl.connect](connect.md) | 连接设备方法 |
-| [ScienerCardEncoderImpl.initCard](init-card.md) | 下发空白卡方法 |
+| [ScienerCardEncoderImpl.connect](connect.html) | 连接设备方法 |
+| [ScienerCardEncoderImpl.initCard](init-card.html) | 下发空白卡方法 |
+
 
 #### Samples
+
+```kotlin
+import com.ttlock.cardencoder.ScienerCardEncoder
+import com.ttlock.cardencoder.CardEncoderDevice
+import com.ttlock.cardencoder.CardEncoderCallback
+import com.ttlock.cardencoder.CardEncoderTwoStepCallback
+import com.ttlock.cardencoder.CardEncoderException
+import com.ttlock.cardencoder.CardWriteResult
+import com.ttlock.cardencoder.CardReadResult
+import com.ttlock.cardencoder.CardClearResult
+
+fun main() { 
+   //sampleStart 
+   val sdk = ScienerCardEncoder.getInstance()
+
+sdk.initCardEncoder("HOTEL_001", object : CardEncoderCallback<Unit> {
+    override fun onSuccess(result: Unit) {
+        // 初始化成功，可以进行卡片操作
+        println("卡片编码器初始化成功")
+    }
+    
+    override fun onFailure(error: CardEncoderException) {
+        // 初始化失败，处理错误
+        println("初始化失败: ${error.message}")
+    }
+}) 
+   //sampleEnd
+}
+```
+
+
+

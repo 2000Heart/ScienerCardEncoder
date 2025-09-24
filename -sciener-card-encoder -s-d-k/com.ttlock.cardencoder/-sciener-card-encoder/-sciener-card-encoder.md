@@ -1,6 +1,17 @@
-//[ScienerCardEncoder SDK](../../../index.md)/[com.ttlock.cardencoder](../index.md)/[ScienerCardEncoder](index.md)/[ScienerCardEncoder](-sciener-card-encoder.md)
+---
+title: ScienerCardEncoder
+---
+//[ScienerCardEncoder SDK](../../../index.html)/[com.ttlock.cardencoder](../index.html)/[ScienerCardEncoder](index.html)/[ScienerCardEncoder](-sciener-card-encoder.html)
+
+
 
 # ScienerCardEncoder
 
+
+
 [androidJvm]\
 constructor()
+
+
+
+

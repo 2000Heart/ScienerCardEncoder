@@ -1,10 +1,25 @@
-//[ScienerCardEncoder SDK](../../../index.md)/[com.ttlock.cardencoder](../index.md)/[ServerCode](index.md)/[values](values.md)
+---
+title: values
+---
+//[ScienerCardEncoder SDK](../../../index.html)/[com.ttlock.cardencoder](../index.html)/[ServerCode](index.html)/[values](values.html)
+
+
 
 # values
 
+
+
 [androidJvm]\
-fun [values](values.md)(): [Array](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-array/index.html)&lt;[ServerCode](index.md)&gt;
+fun [values](values.html)(): [Array](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-array/index.html)&lt;[ServerCode](index.html)&gt;
+
+
 
 Returns an array containing the constants of this enum type, in the order they're declared.
 
+
+
 This method may be used to iterate over the constants.
+
+
+
+

@@ -1,16 +1,32 @@
-//[ScienerCardEncoder SDK](../../../index.md)/[com.ttlock.cardencoder](../index.md)/[CardEncoderTwoStepCallback](index.md)/[onFailure](on-failure.md)
+---
+title: onFailure
+---
+//[ScienerCardEncoder SDK](../../../index.html)/[com.ttlock.cardencoder](../index.html)/[CardEncoderTwoStepCallback](index.html)/[onFailure](on-failure.html)
+
+
 
 # onFailure
 
+
+
 [androidJvm]\
-abstract fun [onFailure](on-failure.md)(error: [CardEncoderException](../-card-encoder-exception/index.md))
+abstract fun [onFailure](on-failure.html)(error: [CardEncoderException](../-card-encoder-exception/index.html))
+
+
 
 操作失败回调
 
+
+
 #### Parameters
+
 
 androidJvm
 
 | | |
 |---|---|
 | error | 错误信息 |
+
+
+
+

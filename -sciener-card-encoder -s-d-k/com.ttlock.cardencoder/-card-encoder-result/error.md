@@ -1,6 +1,17 @@
-//[ScienerCardEncoder SDK](../../../index.md)/[com.ttlock.cardencoder](../index.md)/[CardEncoderResult](index.md)/[error](error.md)
+---
+title: error
+---
+//[ScienerCardEncoder SDK](../../../index.html)/[com.ttlock.cardencoder](../index.html)/[CardEncoderResult](index.html)/[error](error.html)
+
+
 
 # error
 
+
+
 [androidJvm]\
-val [error](error.md): [CardEncoderException](../-card-encoder-exception/index.md)? = null
+val [error](error.html): [CardEncoderException](../-card-encoder-exception/index.html)? = null
+
+
+
+

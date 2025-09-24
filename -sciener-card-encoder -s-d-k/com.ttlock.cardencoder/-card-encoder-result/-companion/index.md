@@ -1,13 +1,24 @@
-//[ScienerCardEncoder SDK](../../../../index.md)/[com.ttlock.cardencoder](../../index.md)/[CardEncoderResult](../index.md)/[Companion](index.md)
+---
+title: Companion
+---
+//[ScienerCardEncoder SDK](../../../../index.html)/[com.ttlock.cardencoder](../../index.html)/[CardEncoderResult](../index.html)/[Companion](index.html)
+
+
 
 # Companion
 
+
+
 [androidJvm]\
-object [Companion](index.md)
+object [Companion](index.html)
+
+
 
 ## Functions
 
+
 | Name | Summary |
 |---|---|
-| [failure](failure.md) | [androidJvm]<br>fun &lt;[T](failure.md)&gt; [failure](failure.md)(error: [CardEncoderException](../../-card-encoder-exception/index.md)): [CardEncoderResult](../index.md)&lt;[T](failure.md)&gt;<br>创建失败结果<br>[androidJvm]<br>fun &lt;[T](failure.md)&gt; [failure](failure.md)(code: [CardEncoderCode](../../-card-encoder-code/index.md), message: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html)): [CardEncoderResult](../index.md)&lt;[T](failure.md)&gt;<br>创建失败结果（使用错误码和消息） |
-| [success](success.md) | [androidJvm]<br>fun &lt;[T](success.md)&gt; [success](success.md)(data: [T](success.md)): [CardEncoderResult](../index.md)&lt;[T](success.md)&gt;<br>创建成功结果 |
+| [failure](failure.html) | [androidJvm]<br>fun &lt;[T](failure.html)&gt; [failure](failure.html)(error: [CardEncoderException](../../-card-encoder-exception/index.html)): [CardEncoderResult](../index.html)&lt;[T](failure.html)&gt;<br>创建失败结果<br>[androidJvm]<br>fun &lt;[T](failure.html)&gt; [failure](failure.html)(code: [CardEncoderCode](../../-card-encoder-code/index.html), message: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html)): [CardEncoderResult](../index.html)&lt;[T](failure.html)&gt;<br>创建失败结果（使用错误码和消息） |
+| [success](success.html) | [androidJvm]<br>fun &lt;[T](success.html)&gt; [success](success.html)(data: [T](success.html)): [CardEncoderResult](../index.html)&lt;[T](success.html)&gt;<br>创建成功结果 |
+

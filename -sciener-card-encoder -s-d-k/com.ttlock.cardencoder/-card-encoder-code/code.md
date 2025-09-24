@@ -1,6 +1,17 @@
-//[ScienerCardEncoder SDK](../../../index.md)/[com.ttlock.cardencoder](../index.md)/[CardEncoderCode](index.md)/[code](code.md)
+---
+title: code
+---
+//[ScienerCardEncoder SDK](../../../index.html)/[com.ttlock.cardencoder](../index.html)/[CardEncoderCode](index.html)/[code](code.html)
+
+
 
 # code
 
+
+
 [androidJvm]\
-abstract val [code](code.md): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-int/index.html)
+abstract val [code](code.html): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-int/index.html)
+
+
+
+

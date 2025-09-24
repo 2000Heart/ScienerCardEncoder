@@ -1,6 +1,17 @@
-//[ScienerCardEncoder SDK](../../../index.md)/[com.ttlock.cardencoder](../index.md)/[CardEncoderDevice](index.md)/[deviceId](device-id.md)
+---
+title: deviceId
+---
+//[ScienerCardEncoder SDK](../../../index.html)/[com.ttlock.cardencoder](../index.html)/[CardEncoderDevice](index.html)/[deviceId](device-id.html)
+
+
 
 # deviceId
 
+
+
 [androidJvm]\
-val [deviceId](device-id.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html)
+val [deviceId](device-id.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html)
+
+
+
+

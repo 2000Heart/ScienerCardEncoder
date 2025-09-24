@@ -1,6 +1,17 @@
-//[ScienerCardEncoder SDK](../../../index.md)/[com.ttlock.cardencoder](../index.md)/[BlankCardIssueResult](index.md)/[isIssued](is-issued.md)
+---
+title: isIssued
+---
+//[ScienerCardEncoder SDK](../../../index.html)/[com.ttlock.cardencoder](../index.html)/[BlankCardIssueResult](index.html)/[isIssued](is-issued.html)
+
+
 
 # isIssued
 
+
+
 [androidJvm]\
-val [isIssued](is-issued.md): [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html)
+val [isIssued](is-issued.html): [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html)
+
+
+
+

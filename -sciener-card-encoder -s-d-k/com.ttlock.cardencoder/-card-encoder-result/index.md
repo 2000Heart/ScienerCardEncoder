@@ -1,12 +1,20 @@
-//[ScienerCardEncoder SDK](../../../index.md)/[com.ttlock.cardencoder](../index.md)/[CardEncoderResult](index.md)
+---
+title: CardEncoderResult
+---
+//[ScienerCardEncoder SDK](../../../index.html)/[com.ttlock.cardencoder](../index.html)/[CardEncoderResult](index.html)
+
+
 
 # CardEncoderResult
 
-data class [CardEncoderResult](index.md)&lt;[T](index.md)&gt;(val isSuccess: [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html), val data: [T](index.md)? = null, val error: [CardEncoderException](../-card-encoder-exception/index.md)? = null)
+data class [CardEncoderResult](index.html)&lt;[T](index.html)&gt;(val isSuccess: [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html), val data: [T](index.html)? = null, val error: [CardEncoderException](../-card-encoder-exception/index.html)? = null)
 
 卡片编码器统一结果类
 
+
+
 #### Parameters
+
 
 androidJvm
 
@@ -14,22 +22,30 @@ androidJvm
 |---|---|
 | T | 数据类型 |
 
+
+
 ## Constructors
+
 
 | | |
 |---|---|
-| [CardEncoderResult](-card-encoder-result.md) | [androidJvm]<br>constructor(isSuccess: [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html), data: [T](index.md)? = null, error: [CardEncoderException](../-card-encoder-exception/index.md)? = null) |
+| [CardEncoderResult](-card-encoder-result.html) | [androidJvm]<br>constructor(isSuccess: [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html), data: [T](index.html)? = null, error: [CardEncoderException](../-card-encoder-exception/index.html)? = null) |
+
 
 ## Types
 
+
 | Name | Summary |
 |---|---|
-| [Companion](-companion/index.md) | [androidJvm]<br>object [Companion](-companion/index.md) |
+| [Companion](-companion/index.html) | [androidJvm]<br>object [Companion](-companion/index.html) |
+
 
 ## Properties
 
+
 | Name | Summary |
 |---|---|
-| [data](data.md) | [androidJvm]<br>val [data](data.md): [T](index.md)? = null |
-| [error](error.md) | [androidJvm]<br>val [error](error.md): [CardEncoderException](../-card-encoder-exception/index.md)? = null |
-| [isSuccess](is-success.md) | [androidJvm]<br>val [isSuccess](is-success.md): [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html) |
+| [data](data.html) | [androidJvm]<br>val [data](data.html): [T](index.html)? = null |
+| [error](error.html) | [androidJvm]<br>val [error](error.html): [CardEncoderException](../-card-encoder-exception/index.html)? = null |
+| [isSuccess](is-success.html) | [androidJvm]<br>val [isSuccess](is-success.html): [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html) |
+

@@ -1,6 +1,17 @@
-//[ScienerCardEncoder SDK](../../../index.md)/[com.ttlock.cardencoder](../index.md)/[CardEncoderResult](index.md)/[data](data.md)
+---
+title: data
+---
+//[ScienerCardEncoder SDK](../../../index.html)/[com.ttlock.cardencoder](../index.html)/[CardEncoderResult](index.html)/[data](data.html)
+
+
 
 # data
 
+
+
 [androidJvm]\
-val [data](data.md): [T](index.md)? = null
+val [data](data.html): [T](index.html)? = null
+
+
+
+

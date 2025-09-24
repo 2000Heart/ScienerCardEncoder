@@ -1,15 +1,29 @@
-//[ScienerCardEncoder SDK](../../../index.md)/[com.ttlock.cardencoder](../index.md)/[ScienerCardEncoder](index.md)/[writeCard](write-card.md)
+---
+title: writeCard
+---
+//[ScienerCardEncoder SDK](../../../index.html)/[com.ttlock.cardencoder](../index.html)/[ScienerCardEncoder](index.html)/[writeCard](write-card.html)
+
+
 
 # writeCard
 
+
+
 [androidJvm]\
-abstract fun [writeCard](write-card.md)(hotelInfo: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html), buildNo: [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-int/index.html), floorNo: [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-int/index.html), mac: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html), timestamp: [Long](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-long/index.html), allowLockOut: [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html), callback: [CardEncoderTwoStepCallback](../-card-encoder-two-step-callback/index.md)&lt;[CardWriteResult](../-card-write-result/index.md)&gt;)
+abstract fun [writeCard](write-card.html)(hotelInfo: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html), buildNo: [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-int/index.html), floorNo: [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-int/index.html), mac: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html), timestamp: [Long](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-long/index.html), allowLockOut: [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html), callback: [CardEncoderTwoStepCallback](../-card-encoder-two-step-callback/index.html)&lt;[CardWriteResult](../-card-write-result/index.html)&gt;)
+
+
 
 写入卡片酒店信息
 
+
+
 将酒店门锁的详细信息写入到卡片中，包括楼栋、楼层、MAC地址等。 这是一个两步操作，需要等待设备响应。
 
+
+
 #### Parameters
+
 
 androidJvm
 
@@ -23,11 +37,64 @@ androidJvm
 | allowLockOut | 是否允许开反锁，true表示可以开反锁，false表示只能开正锁 |
 | callback | 两步操作回调，包含接收和写入结果 |
 
+
+
 #### See also
+
 
 | | |
 |---|---|
-| [CardEncoderTwoStepCallback](../-card-encoder-two-step-callback/index.md) | 两步操作回调接口 |
-| [CardWriteResult](../-card-write-result/index.md) | 写入结果数据类 |
+| [CardEncoderTwoStepCallback](../-card-encoder-two-step-callback/index.html) | 两步操作回调接口 |
+| [CardWriteResult](../-card-write-result/index.html) | 写入结果数据类 |
+
 
 #### Samples
+
+```kotlin
+import com.ttlock.cardencoder.ScienerCardEncoder
+import com.ttlock.cardencoder.CardEncoderDevice
+import com.ttlock.cardencoder.CardEncoderCallback
+import com.ttlock.cardencoder.CardEncoderTwoStepCallback
+import com.ttlock.cardencoder.CardEncoderException
+import com.ttlock.cardencoder.CardWriteResult
+import com.ttlock.cardencoder.CardReadResult
+import com.ttlock.cardencoder.CardClearResult
+
+fun main() { 
+   //sampleStart 
+   val sdk = ScienerCardEncoder.getInstance()
+
+sdk.writeCard(
+    hotelInfo = "HOTEL_001",
+    buildNo = 1,
+    floorNo = 5,
+    mac = "AA:BB:CC:DD:EE:FF",
+    timestamp = System.currentTimeMillis(),
+    allowLockOut = true,
+    callback = object : CardEncoderTwoStepCallback<CardWriteResult> {
+        override fun onReceive() {
+            // 开始写入操作
+            println("开始写入卡片信息...")
+        }
+        
+        override fun onSuccess(result: CardWriteResult) {
+            if (result.isWritten) {
+                // 写入成功，result.cardNumber为卡号
+                println("卡片写入成功，卡号: ${result.cardNumber}")
+            } else {
+                println("卡片写入失败: ${result.message}")
+            }
+        }
+        
+        override fun onFailure(error: CardEncoderException) {
+            // 写入失败
+            println("写入卡片失败: ${error.message}")
+        }
+    }
+) 
+   //sampleEnd
+}
+```
+
+
+

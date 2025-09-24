@@ -1,6 +1,17 @@
-//[ScienerCardEncoder SDK](../../../index.md)/[com.ttlock.cardencoder](../index.md)/[CardEncoderResult](index.md)/[isSuccess](is-success.md)
+---
+title: isSuccess
+---
+//[ScienerCardEncoder SDK](../../../index.html)/[com.ttlock.cardencoder](../index.html)/[CardEncoderResult](index.html)/[isSuccess](is-success.html)
+
+
 
 # isSuccess
 
+
+
 [androidJvm]\
-val [isSuccess](is-success.md): [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html)
+val [isSuccess](is-success.html): [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html)
+
+
+
+

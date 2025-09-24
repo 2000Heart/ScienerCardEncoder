@@ -1,8 +1,21 @@
-//[ScienerCardEncoder SDK](../../../index.md)/[com.ttlock.cardencoder](../index.md)/[CardEncoderDevice](index.md)/[getDescription](get-description.md)
+---
+title: getDescription
+---
+//[ScienerCardEncoder SDK](../../../index.html)/[com.ttlock.cardencoder](../index.html)/[CardEncoderDevice](index.html)/[getDescription](get-description.html)
+
+
 
 # getDescription
 
+
+
 [androidJvm]\
-fun [getDescription](get-description.md)(): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html)
+fun [getDescription](get-description.html)(): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html)
+
+
 
 获取设备描述信息
+
+
+
+

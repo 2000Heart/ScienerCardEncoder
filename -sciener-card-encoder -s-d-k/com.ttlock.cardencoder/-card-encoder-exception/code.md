@@ -1,6 +1,17 @@
-//[ScienerCardEncoder SDK](../../../index.md)/[com.ttlock.cardencoder](../index.md)/[CardEncoderException](index.md)/[code](code.md)
+---
+title: code
+---
+//[ScienerCardEncoder SDK](../../../index.html)/[com.ttlock.cardencoder](../index.html)/[CardEncoderException](index.html)/[code](code.html)
+
+
 
 # code
 
+
+
 [androidJvm]\
-val [code](code.md): [CardEncoderCode](../-card-encoder-code/index.md)
+val [code](code.html): [CardEncoderCode](../-card-encoder-code/index.html)
+
+
+
+

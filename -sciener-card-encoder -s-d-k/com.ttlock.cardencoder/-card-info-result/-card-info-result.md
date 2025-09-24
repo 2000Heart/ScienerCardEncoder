@@ -1,6 +1,17 @@
-//[ScienerCardEncoder SDK](../../../index.md)/[com.ttlock.cardencoder](../index.md)/[CardInfoResult](index.md)/[CardInfoResult](-card-info-result.md)
+---
+title: CardInfoResult
+---
+//[ScienerCardEncoder SDK](../../../index.html)/[com.ttlock.cardencoder](../index.html)/[CardInfoResult](index.html)/[CardInfoResult](-card-info-result.html)
+
+
 
 # CardInfoResult
 
+
+
 [androidJvm]\
 constructor(cardNumber: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html))
+
+
+
+

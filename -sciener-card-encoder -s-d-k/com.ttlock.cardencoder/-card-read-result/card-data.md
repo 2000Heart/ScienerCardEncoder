@@ -1,6 +1,17 @@
-//[ScienerCardEncoder SDK](../../../index.md)/[com.ttlock.cardencoder](../index.md)/[CardReadResult](index.md)/[cardData](card-data.md)
+---
+title: cardData
+---
+//[ScienerCardEncoder SDK](../../../index.html)/[com.ttlock.cardencoder](../index.html)/[CardReadResult](index.html)/[cardData](card-data.html)
+
+
 
 # cardData
 
+
+
 [androidJvm]\
-val [cardData](card-data.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html)? = null
+val [cardData](card-data.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html)? = null
+
+
+
+

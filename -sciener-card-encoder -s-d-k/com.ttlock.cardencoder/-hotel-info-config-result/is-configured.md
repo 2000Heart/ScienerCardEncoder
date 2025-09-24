@@ -1,6 +1,17 @@
-//[ScienerCardEncoder SDK](../../../index.md)/[com.ttlock.cardencoder](../index.md)/[HotelInfoConfigResult](index.md)/[isConfigured](is-configured.md)
+---
+title: isConfigured
+---
+//[ScienerCardEncoder SDK](../../../index.html)/[com.ttlock.cardencoder](../index.html)/[HotelInfoConfigResult](index.html)/[isConfigured](is-configured.html)
+
+
 
 # isConfigured
 
+
+
 [androidJvm]\
-val [isConfigured](is-configured.md): [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html)
+val [isConfigured](is-configured.html): [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html)
+
+
+
+

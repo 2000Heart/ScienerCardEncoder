@@ -1,6 +1,17 @@
-//[ScienerCardEncoder SDK](../../../index.md)/[com.ttlock.cardencoder](../index.md)/[ScienerCardEncoderImpl](index.md)/[parseError](parse-error.md)
+---
+title: parseError
+---
+//[ScienerCardEncoder SDK](../../../index.html)/[com.ttlock.cardencoder](../index.html)/[ScienerCardEncoderImpl](index.html)/[parseError](parse-error.html)
+
+
 
 # parseError
 
+
+
 [androidJvm]\
-fun [parseError](parse-error.md)(result: AtCommandResult): [CardEncoderException](../-card-encoder-exception/index.md)
+fun [parseError](parse-error.html)(result: AtCommandResult): [CardEncoderException](../-card-encoder-exception/index.html)
+
+
+
+

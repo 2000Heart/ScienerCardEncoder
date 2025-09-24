@@ -1,19 +1,28 @@
-//[ScienerCardEncoder SDK](../../../index.md)/[com.ttlock.cardencoder](../index.md)/[CardEncoderCode](index.md)
+---
+title: CardEncoderCode
+---
+//[ScienerCardEncoder SDK](../../../index.html)/[com.ttlock.cardencoder](../index.html)/[CardEncoderCode](index.html)
+
+
 
 # CardEncoderCode
 
-interface [CardEncoderCode](index.md)
+interface [CardEncoderCode](index.html)
 
 #### Inheritors
 
+
 | |
 |---|
-| [ServerCode](../-server-code/index.md) |
-| [OperationCode](../-operation-code/index.md) |
+| [ServerCode](../-server-code/index.html) |
+| [OperationCode](../-operation-code/index.html) |
+
 
 ## Properties
 
+
 | Name | Summary |
 |---|---|
-| [code](code.md) | [androidJvm]<br>abstract val [code](code.md): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-int/index.html) |
-| [description](description.md) | [androidJvm]<br>abstract val [description](description.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html) |
+| [code](code.html) | [androidJvm]<br>abstract val [code](code.html): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-int/index.html) |
+| [description](description.html) | [androidJvm]<br>abstract val [description](description.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html) |
+

@@ -1,6 +1,17 @@
-//[ScienerCardEncoder SDK](../../../index.md)/[com.ttlock.cardencoder](../index.md)/[BlankCardIssueResult](index.md)/[count](count.md)
+---
+title: count
+---
+//[ScienerCardEncoder SDK](../../../index.html)/[com.ttlock.cardencoder](../index.html)/[BlankCardIssueResult](index.html)/[count](count.html)
+
+
 
 # count
 
+
+
 [androidJvm]\
-val [count](count.md): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-int/index.html) = 0
+val [count](count.html): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-int/index.html) = 0
+
+
+
+

@@ -1,8 +1,21 @@
-//[ScienerCardEncoder SDK](../../../../index.md)/[com.ttlock.cardencoder](../../index.md)/[CardEncoderResult](../index.md)/[Companion](index.md)/[success](success.md)
+---
+title: success
+---
+//[ScienerCardEncoder SDK](../../../../index.html)/[com.ttlock.cardencoder](../../index.html)/[CardEncoderResult](../index.html)/[Companion](index.html)/[success](success.html)
+
+
 
 # success
 
+
+
 [androidJvm]\
-fun &lt;[T](success.md)&gt; [success](success.md)(data: [T](success.md)): [CardEncoderResult](../index.md)&lt;[T](success.md)&gt;
+fun &lt;[T](success.html)&gt; [success](success.html)(data: [T](success.html)): [CardEncoderResult](../index.html)&lt;[T](success.html)&gt;
+
+
 
 创建成功结果
+
+
+
+
