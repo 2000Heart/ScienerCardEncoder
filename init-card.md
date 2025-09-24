@@ -1,7 +1,7 @@
 ---
 title: initCard
 ---
-//[ScienerCardEncoder SDK](../../../index.html)/[com.ttlock.cardencoder](../index.html)/[ScienerCardEncoder](index.html)/[initCard](init-card.html)
+//[ScienerCardEncoder](index.html)/[initCard](init-card.html)
 
 
 

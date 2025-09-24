@@ -1,7 +1,7 @@
 ---
 title: clearCard
 ---
-//[ScienerCardEncoder SDK](../../../index.html)/[com.ttlock.cardencoder](../index.html)/[ScienerCardEncoder](index.html)/[clearCard](clear-card.html)
+//[ScienerCardEncoder](index.html)/[clearCard](clear-card.html)
 
 
 

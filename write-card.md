@@ -1,7 +1,7 @@
 ---
 title: writeCard
 ---
-//[ScienerCardEncoder SDK](../../../index.html)/[com.ttlock.cardencoder](../index.html)/[ScienerCardEncoder](index.html)/[writeCard](write-card.html)
+//[ScienerCardEncoder](index.html)/[writeCard](write-card.html)
 
 
 

@@ -1,32 +1,35 @@
 ---
-title: getNetworkTimeout
+title: setNetworkTimeout
 ---
-//[ScienerCardEncoder SDK](../../../index.html)/[com.ttlock.cardencoder](../index.html)/[ScienerCardEncoder](index.html)/[getNetworkTimeout](get-network-timeout.html)
+//[ScienerCardEncoder](index.html)/[setNetworkTimeout](set-network-timeout.html)
 
 
 
-# getNetworkTimeout
+# setNetworkTimeout
 
 
 
 [androidJvm]\
-abstract fun [getNetworkTimeout](get-network-timeout.html)(): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-int/index.html)
+abstract fun [setNetworkTimeout](set-network-timeout.html)(timeout: [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-int/index.html))
 
 
 
-获取当前网络超时时间
+设置网络超时时间
 
 
 
-获取当前配置的网络请求超时时间。
+配置网络请求的超时时间，防止网络请求长时间无响应。 建议设置为5-30秒之间。
 
 
 
-#### Return
+#### Parameters
 
 
+androidJvm
 
-当前网络超时时间，单位毫秒
+| | |
+|---|---|
+| timeout | 超时时间，单位毫秒，建议范围：5000-30000ms |
 
 
 
@@ -35,7 +38,7 @@ abstract fun [getNetworkTimeout](get-network-timeout.html)(): [Int](https://kotl
 
 | | |
 |---|---|
-| [ScienerCardEncoder.setNetworkTimeout](set-network-timeout.html) | 设置网络超时时间方法 |
+| [ScienerCardEncoder.getNetworkTimeout](get-network-timeout.html) | 获取当前超时时间方法 |
 
 
 #### Samples

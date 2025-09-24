@@ -1,7 +1,7 @@
 ---
 title: getCardNo
 ---
-//[ScienerCardEncoder SDK](../../../index.html)/[com.ttlock.cardencoder](../index.html)/[ScienerCardEncoder](index.html)/[getCardNo](get-card-no.html)
+//[ScienerCardEncoder](index.html)/[getCardNo](get-card-no.html)
 
 
 

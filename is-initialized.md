@@ -1,7 +1,7 @@
 ---
 title: isInitialized
 ---
-//[ScienerCardEncoder SDK](../../../index.html)/[com.ttlock.cardencoder](../index.html)/[ScienerCardEncoder](index.html)/[isInitialized](is-initialized.html)
+//[ScienerCardEncoder](index.html)/[isInitialized](is-initialized.html)
 
 
 

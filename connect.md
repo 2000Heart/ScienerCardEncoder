@@ -1,7 +1,7 @@
 ---
 title: connect
 ---
-//[ScienerCardEncoder SDK](../../../index.html)/[com.ttlock.cardencoder](../index.html)/[ScienerCardEncoder](index.html)/[connect](connect.html)
+//[ScienerCardEncoder](index.html)/[connect](connect.html)
 
 
 

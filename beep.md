@@ -1,7 +1,7 @@
 ---
 title: beep
 ---
-//[ScienerCardEncoder SDK](../../../index.html)/[com.ttlock.cardencoder](../index.html)/[ScienerCardEncoder](index.html)/[beep](beep.html)
+//[ScienerCardEncoder](index.html)/[beep](beep.html)
 
 
 

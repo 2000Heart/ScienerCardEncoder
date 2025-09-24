@@ -1,7 +1,7 @@
 ---
 title: release
 ---
-//[ScienerCardEncoder SDK](../../../index.html)/[com.ttlock.cardencoder](../index.html)/[ScienerCardEncoder](index.html)/[release](release.html)
+//[ScienerCardEncoder](index.html)/[release](release.html)
 
 
 

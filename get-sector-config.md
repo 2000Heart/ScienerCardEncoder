@@ -1,7 +1,7 @@
 ---
 title: getSectorConfig
 ---
-//[ScienerCardEncoder SDK](../../../index.html)/[com.ttlock.cardencoder](../index.html)/[ScienerCardEncoder](index.html)/[getSectorConfig](get-sector-config.html)
+//[ScienerCardEncoder](index.html)/[getSectorConfig](get-sector-config.html)
 
 
 

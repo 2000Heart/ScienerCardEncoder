@@ -1,7 +1,7 @@
 ---
 title: readIcCard
 ---
-//[ScienerCardEncoder SDK](../../../index.html)/[com.ttlock.cardencoder](../index.html)/[ScienerCardEncoder](index.html)/[readIcCard](read-ic-card.html)
+//[ScienerCardEncoder](index.html)/[readIcCard](read-ic-card.html)
 
 
 

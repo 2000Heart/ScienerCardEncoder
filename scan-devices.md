@@ -1,7 +1,7 @@
 ---
 title: scanDevices
 ---
-//[ScienerCardEncoder SDK](../../../index.html)/[com.ttlock.cardencoder](../index.html)/[ScienerCardEncoder](index.html)/[scanDevices](scan-devices.html)
+//[ScienerCardEncoder](index.html)/[scanDevices](scan-devices.html)
 
 
 

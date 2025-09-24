@@ -1,7 +1,7 @@
 ---
 title: setServerBaseUrl
 ---
-//[ScienerCardEncoder SDK](../../../index.html)/[com.ttlock.cardencoder](../index.html)/[ScienerCardEncoder](index.html)/[setServerBaseUrl](set-server-base-url.html)
+//[ScienerCardEncoder](index.html)/[setServerBaseUrl](set-server-base-url.html)
 
 
 

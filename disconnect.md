@@ -1,7 +1,7 @@
 ---
 title: disconnect
 ---
-//[ScienerCardEncoder SDK](../../../index.html)/[com.ttlock.cardencoder](../index.html)/[ScienerCardEncoder](index.html)/[disconnect](disconnect.html)
+//[ScienerCardEncoder](index.html)/[disconnect](disconnect.html)
 
 
 
