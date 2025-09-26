@@ -42,13 +42,13 @@ abstract fun [getNetworkTimeout](get-network-timeout.html)(): [Int](https://kotl
 
 ```kotlin
 import com.ttlock.cardencoder.ScienerCardEncoder
-import com.ttlock.cardencoder.api.CardEncoderDevice
-import com.ttlock.cardencoder.api.CardEncoderCallback
-import com.ttlock.cardencoder.api.CardEncoderTwoStepCallback
-import com.ttlock.cardencoder.api.CardEncoderException
-import com.ttlock.cardencoder.api.CardWriteResult
-import com.ttlock.cardencoder.api.CardReadResult
 import com.ttlock.cardencoder.api.CardClearResult
+import com.ttlock.cardencoder.api.CardEncoderCallback
+import com.ttlock.cardencoder.api.CardEncoderDevice
+import com.ttlock.cardencoder.api.CardEncoderException
+import com.ttlock.cardencoder.api.CardEncoderTwoStepCallback
+import com.ttlock.cardencoder.api.CardWriteResult
+import com.ttlock.cardencoder.domain.entity.CardData
 
 fun main() { 
    //sampleStart 

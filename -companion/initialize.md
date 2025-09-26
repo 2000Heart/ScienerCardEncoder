@@ -10,7 +10,7 @@ title: initialize
 
 
 [androidJvm]\
-fun [initialize](initialize.html)(context: [Application](https://developer.android.com/reference/kotlin/android/app/Application.html), enableLogging: [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html) = true, enableErrorHandling: [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html) = true, serverBaseUrl: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html) = &quot;https://cnapi.ttlock.com/v3&quot;): [ScienerCardEncoder](../index.html)
+fun [initialize](initialize.html)(context: [Application](https://developer.android.com/reference/kotlin/android/app/Application.html), enableLogging: [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html) = true, serverBaseUrl: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html) = &quot;https://cnapi.ttlock.com/v3&quot;): [ScienerCardEncoder](../index.html)
 
 
 
@@ -35,7 +35,6 @@ androidJvm
 |---|---|
 | context | 应用上下文 |
 | enableLogging | 是否启用日志 |
-| enableErrorHandling | 是否启用错误处理 |
 | serverBaseUrl | 服务器基础URL |
 
 
